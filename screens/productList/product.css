@@ -79,15 +79,15 @@ body {
   }
   .search-data {
     height: 2rem;
-    width: 25%;
-    padding: 5px 10px;
-    border-radius: 5px;
+    width: 20%;
+    padding: 8px 10px;
+    border-radius: 8px;
     border: 2px solid var(--cta-color);
   }
   .fa-search {
     position: absolute;
     top: 20px;
-    margin-left: 80px;
+    margin-left: 12rem;
     color: var(--cta-color);
   }
   .fa-heart-half {
@@ -108,7 +108,7 @@ body {
   }
   li {
     display: inline-block;
-    margin: 20px;
+    margin: 2rem;
    
   }
   main {
@@ -121,14 +121,14 @@ body {
   img {
     width: 100%;
     object-fit: cover;
-    height: 200px;
+    height: 20rem;
   }
   .card-image-one {
     width: 20rem;
     height: 38rem;
     background-color: var(--primary-font-colour);
     border: 1px solid var(--cta-color);
-    border-radius: 10px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -169,7 +169,7 @@ body {
     padding: 5px 10px;
   }
   .filter-sidebar-price {
-    padding: 20px 10px;
+    padding: 2rem 10px;
   }
   .filter-sidebar-range {
     display: flex;
