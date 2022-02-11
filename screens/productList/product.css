@@ -1,7 +1,33 @@
+:root {
+  --cta-color: #05051a;
+  --hover-bg: #8484c7;
+  --primary-color: #161617;
+  --success-color: #7eb691;
+  --secondary-color: #441744;
+  --success-color: #7eb691;
+  --warning-color: #f5c118;
+  --error-color: #dc3545;
+  --info-color: #77acbe;
+  --offline-color:#d4dde08c;
+  --primary-font-colour: #fff;
+  --btn-primary-color:#007BFF;
+  --btn-secondary-color:#6C757D;
+  --box-shadow:rgba(19, 1, 1, 0.822);
+  --border-color:hsl(39, 77%, 83%);
+
+  
+  
+}
+
+
 body {
     font-family: sans-serif;
     margin: 0px;
     padding: 0px;
+   
+  }
+  html{
+    font-size: 62.5%;
   }
   
   .containr {
@@ -15,52 +41,57 @@ body {
       "...... main main main";
   
     justify-content: center;
-    background-color: rgb(238, 225, 225);
+    background-color: var(--primary-font-colour);
     position: relative;
   }
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 3rem;
     justify-content: space-between;
-    grid-gap: 40px 40px;
+    grid-gap:4rem 4rem;
     width: 90%;
   }
   
   nav {
-    background-color: rgb(9, 7, 20);
+    background-color: var(--cta-color);
     grid-area: nav;
-    height: 50px;
+    height: 5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     position: fixed;
-    color: white;
+    color: var(--primary-font-colour);
+    font-size: 1.5rem;
   }
-  .abc {
+  .card-prododuct-result{
     position: absolute;
-    top: 45px;
+    top: 4.5rem;
+    font-size: 2rem;
   
     /* text-align: center; */
     margin-left: 0px;
   }
+  .logo{
+    font-size: 2rem;
+  }
   .search-data {
-    height: 20px;
+    height: 2rem;
     width: 25%;
     padding: 5px 10px;
     border-radius: 5px;
-    border: 2px solid black;
+    border: 2px solid var(--cta-color);
   }
   .fa-search {
     position: absolute;
     top: 20px;
     margin-left: 80px;
-    color: black;
+    color: var(--cta-color);
   }
   .fa-heart-half {
-    color: white;
+    color: var(--primary-font-colour);
   }
   
   .cart-icon {
@@ -69,20 +100,22 @@ body {
     justify-content: center;
     align-items: center;
     top: -4px;
-  
+    padding: 5px;
     height: 1rem;
     width: 1rem;
-    background-color: red;
+    background-color: var(--error-color);
     border-radius: 50%;
   }
   li {
     display: inline-block;
     margin: 20px;
+   
   }
   main {
-    background-color: rgb(238, 225, 225);
+    background-color: var(--primary-font-colour);
     grid-area: main;
     padding: 10px;
+  
   }
   
   img {
@@ -91,10 +124,10 @@ body {
     height: 200px;
   }
   .card-image-one {
-    width: 200px;
-    height: 380px;
-    background-color: white;
-    border: 1px solid wheat;
+    width: 20rem;
+    height: 38rem;
+    background-color: var(--primary-font-colour);
+    border: 1px solid var(--cta-color);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -103,9 +136,10 @@ body {
   }
   .card-image-data {
     text-align: center;
+    font-size: 1.5rem;
   }
   .btn {
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 10px;
     border: none;
     padding: 5px;
@@ -121,11 +155,12 @@ body {
   #filter-sidebar {
     background-color: rgba(39, 39, 39, 0.898);
     grid-area: sidebar;
-    margin-top: -26px;
+    margin-top: -2.6rem;
     height: 100vh;
     width: 100%;
     text-align: center;
     color: white;
+    font-size: 1.5rem;
   }
   .filter-sidebar-heading {
     display: flex;
@@ -140,15 +175,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 20px;
+   
   }
   .price-range {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 2rem;
+    margin-top: 2rem;
   }
   .filter-category {
-    padding: 10px 20px;
-    margin-top: 20px;
+    padding: 10px 2rem;
+    margin-top: 2rem;
   }
   .filter-item {
     padding: 5px 0;
@@ -159,8 +194,8 @@ body {
     margin-top: 10px;
   }
   .filter-item input {
-    height: 15px;
-    width: 15px;
+    height: 1.5rem;
+    width: 1.5rem;
   }
   #content1 {
     background-color: pink;
@@ -182,7 +217,7 @@ body {
     margin: 10px;
   }
   input {
-    margin-left: 20px;
+    margin-left: 2rem;
   }
   @media (max-width: 768px) {
     .grid {
