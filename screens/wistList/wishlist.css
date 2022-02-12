@@ -14,9 +14,6 @@
     --btn-secondary-color:#6C757D;
     --box-shadow:rgba(19, 1, 1, 0.822);
     --border-color:hsl(39, 77%, 83%);
-  
-    
-    
   }
   
   
@@ -24,7 +21,6 @@
       font-family: sans-serif;
       margin: 0px;
       padding: 0px;
-     
     }
     html{
       font-size: 62.5%;
