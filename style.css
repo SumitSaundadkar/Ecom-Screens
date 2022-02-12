@@ -3,10 +3,28 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --cta-color: #05051a;
+    --hover-bg: #8484c7;
+    --primary-color: #161617;
+    --success-color: #7eb691;
+    --secondary-color: #441744;
+    --success-color: #7eb691;
+    --warning-color: #f5c118;
+    --error-color: #dc3545;
+    --info-color: #77acbe;
+    --offline-color:#d4dde08c;
+    --primary-font-colour: #fff;
+    --btn-primary-color:#007BFF;
+    --btn-secondary-color:#6C757D;
+    --box-shadow:rgba(19, 1, 1, 0.822);
+    --border-color:hsl(39, 77%, 83%);
+  
+}
 
-.anchors{
+a{
     text-decoration: none;
-    color: black;
+    color: var(--cta-color);
     font-size: larger;
 }
 
@@ -19,6 +37,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: blueviolet;
+    background-color: var(--secondary-color);
     border-bottom-left-radius: 1rem;
 }
