@@ -37,6 +37,6 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: var(--secondary-color);
+    background-color: var(--btn-secondary-color);
     border-bottom-left-radius: 1rem;
 }
