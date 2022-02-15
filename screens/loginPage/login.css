@@ -1,0 +1,193 @@
+:root {
+    --cta-color: #05051a;
+    --hover-bg: #8484c7;
+    --primary-color: #161617;
+    --success-color: #7eb691;
+    --secondary-color: #441744;
+    --success-color: #7eb691;
+    --warning-color: #f5c118;
+    --error-color: #dc3545;
+    --info-color: #77acbe;
+    --offline-color:#d4dde08c;
+    --primary-font-colour: #fff;
+    --btn-primary-color:#007BFF;
+    --btn-secondary-color:#6C757D;
+    --box-shadow:rgba(19, 1, 1, 0.822);
+    --border-color:hsl(39, 77%, 83%);
+  
+  }
+  
+  
+  body {
+      font-family: sans-serif;
+      margin: 0px;
+      padding: 0px;
+     
+    }
+    html{
+      font-size: 62.5%;
+    }
+    
+    .containr {
+      display: grid;
+      grid-template-columns: 0.5fr 1fr 1fr;
+      grid-template-rows: 0.2fr 1.2fr 1.5fr;
+      grid-template-areas:
+        "nav nav nav nav"
+        "sidebar main main main"
+        "sidebar main main main"
+        "...... main main main";
+    
+      justify-content: center;
+      background-color: var(--primary-font-colour);
+      position: relative;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      flex-wrap: wrap;
+      margin: 3rem;
+      justify-content: space-between;
+      grid-gap:4rem 4rem;
+      width: 90%;
+    }
+    
+    nav {
+      background-color: var(--cta-color);
+      grid-area: nav;
+      height: 5rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      position: fixed;
+      color: var(--primary-font-colour);
+      font-size: 1.5rem;
+    }
+    .card-prododuct-result{
+      position: absolute;
+      top: 4.5rem;
+      font-size: 2rem;
+      margin-left: 0px;
+    }
+    .logo{
+      font-size: 2rem;
+    }
+    .search-data {
+      height: 2rem;
+      width: 20%;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 2px solid var(--cta-color);
+    }
+    .fa-search {
+      position: absolute;
+      top: 20px;
+      margin-left: 12rem;
+      color: var(--cta-color);
+    }
+    .fa-heart-half {
+      color: var(--primary-font-colour);
+    }
+    
+    .cart-icon {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: -4px;
+      padding: 5px;
+      height: 1rem;
+      width: 1rem;
+      background-color: var(--error-color);
+      border-radius: 50%;
+    }
+    li {
+      display: inline-block;
+      margin: 2rem;
+     
+    }
+    main {
+      background-color: var(--primary-font-colour);
+      grid-area: main;
+      padding: 10px;
+    
+    }
+    .btn {
+      font-size: 1.5rem;
+      border-radius: 10px;
+      border: none;
+      padding: 5px;
+      text-align: center;
+      cursor: pointer;
+    
+      font-weight: 500;
+    }
+
+    .login-page {
+        padding: 2.5rem;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 10px 10px 12px 1px var(--btn-secondary-color);
+        width: 30rem;
+        height: 42rem;
+        background-color: var(--primary-font-colour);
+      }
+      .login-page-heading {
+        display: flex;
+        justify-content: center;
+        font: 2.5rem sans-serif;
+      }
+      .login-page-mail {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        letter-spacing: 1px;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+      .login-page-mail input {
+        padding: 1.5rem;
+        font: 1em sans-serif;
+        border-radius: 5px;
+        outline: none;
+        width: 90%;
+        margin: 1rem 0;
+        border: 2px solid rgb(226, 226, 223);
+      }
+      .login-page-remeber-me {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: small;
+      }
+      .login-page-remeber-me span:nth-child(3n) {
+        color: var(--btn-primary-color);
+      }
+      .login-page-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 2rem;
+        height: 40px;
+        background-color: var(--btn-primary-color);
+        font-size: 2rem ;
+      }
+      .login-page-create-account {
+       font-size: small;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+      }
+    span {
+      margin: 10px;
+    }
+    input {
+      margin-left: 2rem;
+    }
+   
+    
