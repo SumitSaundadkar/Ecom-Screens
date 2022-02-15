@@ -38,5 +38,5 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     background-color: var(--btn-secondary-color);
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 10px;
 }
