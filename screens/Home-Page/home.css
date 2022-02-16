@@ -1,0 +1,211 @@
+:root {
+    --cta-color: #05051a;
+    --hover-bg: #8484c7;
+    --primary-color: #161617;
+    --success-color: #7eb691;
+    --secondary-color: #441744;
+    --success-color: #7eb691;
+    --warning-color: #f5c118;
+    --error-color: #dc3545;
+    --info-color: #77acbe;
+    --offline-color:#d4dde08c;
+    --primary-font-colour: #fff;
+    --btn-primary-color:#007BFF;
+    --btn-secondary-color:#6C757D;
+    --box-shadow:rgba(19, 1, 1, 0.822);
+    --border-color:hsl(39, 77%, 83%);
+  
+  }
+  
+  
+  body {
+      font-family: sans-serif;
+      margin: 0px;
+      padding: 0px;
+     
+    }
+    html{
+      font-size: 62.5%;
+    }
+    
+    .containr {
+      display: grid;
+      grid-template-columns: 0.5fr 1fr 1fr;
+      grid-template-rows: 0.2fr 1.2fr 1.5fr;
+      grid-template-areas:
+        "nav nav nav nav"
+        "sidebar main main main"
+        "sidebar main main main"
+        "...... main main main";
+    
+      justify-content: center;
+      background-color: var(--primary-font-colour);
+      position: relative;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      flex-wrap: wrap;
+      margin: 3rem;
+      justify-content: space-between;
+      grid-gap:4rem 4rem;
+      width: 90%;
+    }
+    
+    nav {
+      background-color: var(--cta-color);
+      grid-area: nav;
+      height: 5rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      /* position: fixed; */
+      color: var(--primary-font-colour);
+      font-size: 1.5rem;
+    }
+    .card-prododuct-result{
+      position: absolute;
+      top: 4.5rem;
+      font-size: 2rem;
+      margin-left: 0px;
+    }
+    .logo{
+      font-size: 2rem;
+    }
+    .search-data {
+      height: 2rem;
+      width: 20%;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 2px solid var(--cta-color);
+    }
+    .fa-search {
+      position: absolute;
+      top: 20px;
+      margin-left: 12rem;
+      color: var(--cta-color);
+    }
+    .fa-heart-half {
+      color: var(--primary-font-colour);
+    }
+    
+    .cart-icon {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: -4px;
+      padding: 5px;
+      height: 1rem;
+      width: 1rem;
+      background-color: var(--error-color);
+      border-radius: 50%;
+    }
+    li {
+      display: inline-block;
+      margin: 2rem;
+     
+    }
+    main {
+      background-color: var(--primary-font-colour);
+      grid-area: main;
+      padding: 10px;
+    
+    }
+    .btn {
+      font-size: 1.5rem;
+      border-radius: 10px;
+      border: none;
+      padding: 5px;
+      text-align: center;
+      cursor: pointer;
+    
+      font-weight: 500;
+    }
+
+    
+    span {
+      margin: 10px;
+    }
+    input {
+      margin-left: 2rem;
+    }
+    .home-card-container{
+        position: absolute;
+        margin-top: 5rem;
+        display: flex;
+        width: 100%;
+        padding: 1rem 1rem;
+        height: 20rem;
+        background-color: rgba(245, 239, 239, 0.866);
+        justify-content: space-around;
+        align-items: center;
+      }
+      .home-card{
+        height: 96%;
+        width: 22rem;
+        background-color: var(--error-color);
+        position: relative;
+        box-shadow: 10px 10px 21px -11px rgb(0 0 0 / 75%);
+       
+      }
+      .home-card img{
+          height: 100%;
+          width: 100%;
+          filter: blur(1px);
+      }
+      .home-card::before{
+          content: "men";
+          height: 2.5rem;
+          width: 100%;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          top: 40%;
+          z-index: 2;
+          font: 1.2em sans-serif;
+          right: 0;
+          background-color: var(--primary-font-colour);
+      
+      } 
+      .addvertise{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+         flex-direction: row;
+          width: 100%;
+          height: 40rem;
+          background-color: var(--);
+          margin-top: 28rem;
+      }
+      .addvertise-section{
+          display: flex;
+          justify-content: flex-start;
+          border-radius: 10px;
+          align-items: center;
+          margin: 10px;
+          width: 70rem;
+          height: 30rem;
+          background-color: rgba(245, 239, 239, 0.866);
+          padding: 10px;
+      }
+      .addvertise-section img{
+         width: 20rem;
+         height: 30rem;
+         border-radius: 10px;
+       
+      }
+      .addvertise-price-offer{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          font-size: 1.5rem;
+          padding: 15px;
+         
+      }
+   
+    
