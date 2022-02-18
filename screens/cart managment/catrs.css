@@ -14,6 +14,7 @@
     --btn-secondary-color:#6C757D;
     --box-shadow:rgba(19, 1, 1, 0.822);
     --border-color:hsl(39, 77%, 83%);
+    --body-color:#c5c7c9;
   
   }
   
@@ -108,7 +109,7 @@
      
     }
     main {
-      background-color: var(--primary-font-colour);
+      background-color: var( --body-color);
       grid-area: main;
       padding: 10px;
     
@@ -126,7 +127,7 @@
     .cart_cont{
         width: 80%;
         height: 50rem;
-        background-color:var(--cta-color);
+        background-color:var( --body-color);
         display: flex;
         justify-content: space-around;
         align-items: center;
