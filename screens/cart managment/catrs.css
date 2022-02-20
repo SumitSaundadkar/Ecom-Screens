@@ -12,7 +12,6 @@
     --primary-font-colour: #fff;
     --btn-primary-color:#007BFF;
     --btn-secondary-color:#6C757D;
-    --box-shadow:rgba(19, 1, 1, 0.822);
     --border-color:hsl(39, 77%, 83%);
     --body-color:#c5c7c9;
   
@@ -29,7 +28,7 @@
       font-size: 62.5%;
     }
     
-    .containr {
+    .container {
       display: grid;
       grid-template-columns: 0.5fr 1fr 1fr;
       grid-template-rows: 0.2fr 1.2fr 1.5fr;
@@ -84,7 +83,7 @@
     .fa-search {
       position: absolute;
       top: 20px;
-      margin-left: 12rem;
+      margin-left: 14rem;
       color: var(--cta-color);
     }
     .fa-heart-half {
@@ -124,7 +123,7 @@
       cursor: pointer;
       font-weight: 500;
     }
-    .cart_cont{
+    .cart_container{
         width: 80%;
         height: 50rem;
         background-color:var( --body-color);
