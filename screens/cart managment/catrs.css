@@ -91,6 +91,7 @@
       color: var(--primary-font-colour);
     }
     
+    
     .cart-icon {
       position: absolute;
       display: flex;
@@ -115,7 +116,7 @@
     
     }
     .btn {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       border-radius: 10px;
       border: none;
       padding: 5px;
